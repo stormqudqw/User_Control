@@ -1,0 +1,42 @@
+﻿<Window x:Class="User_Control.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:User_Control"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1100">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <local:UserControl1 Header="23 Февраля" Description="С праздником мужества, силы, отваги,
+Твёрдости духа поздравить хотим
+Родине преданных, верных присяге,
+Наших защитников, смелых мужчин!
+
+Будьте опорой в беде и ненастье,
+Будьте защитой для женщин всегда.
+Пусть никакие невзгоды, несчастья
+Вас не сломают нигде, никогда!
+
+
+" ColoredSource="/23.jpg"></local:UserControl1>
+            <local:UserControl1 Header="8 Марта" Description="Пусть весна подарит счастье,
+Настроение и успех.
+Пусть обходят вас ненастья,
+И звучит почаще смех!
+
+Наслаждайтесь, улыбайтесь.
+Оптимизма и добра.
+С праздником 8 Марта!
+Вы прекрасны, как всегда!
+
+
+" ColoredSource="/8.jpg" ></local:UserControl1>
+            <local:UserControl1 Header="День рождения" Description="Поздравляю с днем рождения! Пусть сбываются мечты, пусть всё вокруг радует тебя, вдохновляет и приносит самые яркие эмоции! Желаю приятных путешествий, самых лучших людей на твоем жизненном пути и море удовольствия от всего, что ты делаешь!
+
+
+" ColoredSource="/HappyBirthday.jpg" ></local:UserControl1>
+            <local:UserControl1 Header="Новый год" Description="Поздравляю с Новым годом! Желаю, чтобы каждая минута приносила только радость, каждое событие было приятным и долгожданным, а каждая задумка заканчивалась успешным результатом!" ColoredSource="/sovetskie-novogodnie-11.jpg" ></local:UserControl1>
+        </StackPanel>
+    </Grid>
+</Window>
